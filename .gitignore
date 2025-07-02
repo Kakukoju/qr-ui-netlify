@@ -1,0 +1,52 @@
+# VSCode 編輯器相關設定
+.vscode/
+
+# macOS 系統產生的垃圾檔案
+.DS_Store
+
+# Windows 縮圖快取
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Node.js (若將來前端加入打包工具)
+node_modules/
+dist/
+build/
+
+# Python 相關快取
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# env config（保留你自己控制）
+.env
+.env.*.local
+
+# 本地備份
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# 不上傳圖片暫存或中間產物
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+uploads/
+temp/
+
+# 不要把 shell script 執行結果檔案加入
+*.sh~
+
+# macOS Git 資訊快取
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
